@@ -9,7 +9,6 @@ import gatefold from "../../imports/GATEFOLD_01.jpg";
 import stickerBorondo from "../../imports/stickers/beeleStickerBorondo.png";
 import stickerColeto from "../../imports/stickers/beeleStickerColeto.png";
 import stickerBomboclat from "../../imports/stickers/beeleStickerBomboclat.png";
-import stickerLaPlena from "../../imports/stickers/beeleStickerLaPlena.png";
 import stickerVisaje from "../../imports/stickers/beeleStickerVisaje.png";
 import stickerLogo from "../../imports/stickers/beeleStickerLogo.png";
 
@@ -46,17 +45,6 @@ const stickers = [
     rotate: 3,
     duration: 2.8,
     delay: 1.0,
-  },
-  {
-    id: "borondo-04",
-    label: "La Plena",
-    src: stickerLaPlena,
-    downloadUrl: "/stickers/borondo-04.webp",
-    downloadName: "borondo-sticker-04-la-plena.webp",
-    alt: "Sticker La Plena de Borondo",
-    rotate: 2,
-    duration: 3.2,
-    delay: 0.3,
   },
   {
     id: "borondo-05",
@@ -181,7 +169,7 @@ export function WhatsAppStickers() {
               className="text-white/70 mb-7 max-w-sm"
               style={{ fontSize: "1rem", lineHeight: 1.75 }}
             >
-              6 stickers del mundo Borondo para tus conversaciones.
+              5 stickers del mundo Borondo para tus conversaciones.
               Descarga el pack y comparte lo que llevas dentro.
             </p>
 
